@@ -3,23 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_movies">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.three_we_mobile.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/nav_book"
+        android:name="com.example.three_we_mobile.ui.ebooks.Ebooks"
+        android:label="ebooks_fragment"
+        tools:layout="@layout/ebooks_fragment" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.three_we_mobile.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_esports"
+        android:name="com.example.three_we_mobile.ui.esports.Esports"
+        android:label="esports_fragment"
+        tools:layout="@layout/esports_fragment" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.three_we_mobile.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_horse"
+        android:name="com.example.three_we_mobile.ui.horse.Horse"
+        android:label="horse_fragment"
+        tools:layout="@layout/horse_fragment" />
+    <fragment
+        android:id="@+id/nav_movies"
+        android:name="com.example.three_we_mobile.ui.movies.Movies"
+        android:label="Movies"
+        tools:layout="@layout/movie_fragment" />
+    <fragment
+        android:id="@+id/nav_page"
+        android:name="com.example.three_we_mobile.ui.page.Page"
+        android:label="page_fragment"
+        tools:layout="@layout/page_fragment" />
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.example.three_we_mobile.ui.results.Results"
+        android:label="results_fragment"
+        tools:layout="@layout/results_fragment" />
+    <fragment
+        android:id="@+id/nav_show"
+        android:name="com.example.three_we_mobile.ui.show.Show"
+        android:label="show_fragment"
+        tools:layout="@layout/show_fragment" />
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.three_we_mobile.ui.sports.Sports"
+        android:label="sports_fragment"
+        tools:layout="@layout/sports_fragment" />
+
 </navigation>

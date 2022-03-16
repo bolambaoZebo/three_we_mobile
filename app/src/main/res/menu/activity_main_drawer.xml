@@ -4,17 +4,52 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+        <item android:title="@string/first_group">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_movies"
+                    android:icon="@drawable/iconsdocumentary"
+                    android:title="@string/_3we_movies" />
+                <item
+                    android:id="@+id/nav_sports"
+                    android:icon="@drawable/ic_baseline_sports_soccer_24"
+                    android:title="@string/sports" />
+                <item
+                    android:id="@+id/nav_show"
+                    android:icon="@drawable/iconstvbox"
+                    android:title="@string/_3we_show" />
+                <item
+                    android:id="@+id/nav_horse"
+                    android:icon="@drawable/iconshorseracing"
+                    android:title="@string/_3we_horse" />
+            </menu>
+        </item>
     </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/second_group">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_page"
+                    android:icon="@drawable/iconsdocumentary"
+                    android:title="@string/_3we_page" />
+                <item
+                    android:id="@+id/nav_esports"
+                    android:icon="@drawable/iconsesports"
+                    android:title="@string/esports" />
+                <item
+                    android:id="@+id/nav_results"
+                    android:icon="@drawable/fordd"
+                    android:title="@string/_4d_results" />
+
+                <item
+                    android:id="@+id/nav_book"
+                    android:icon="@drawable/icons8book60"
+                    android:title="@string/ebooks" />
+            </menu>
+        </item>
+    </group>
+
 </menu>

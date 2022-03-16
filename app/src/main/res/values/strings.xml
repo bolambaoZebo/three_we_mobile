@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">three_we_mobile</string>
+    <string name="app_name">威生活</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -10,4 +10,20 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="esports">电竞 (Esports)</string>
+    <string name="_4d_results">4D 成绩</string>
+    <string name="_3we_page">3WE 娱乐城</string>
+    <string name="_3we_movies">3号电影城</string>
+    <string name="_3we_show">听音乐</string>
+    <string name="_3we_horse">赛马直播</string>
+    <string name="movies">3号电影城</string>
+    <string name="show">听音乐</string>
+    <string name="horse">赛马直播</string>
+    <string name="page">3WE 娱乐城</string>
+    <string name="resutls">4D 成绩</string>
+    <string name="ebooks">小说</string>
+    <string name="first_group">一起看影片直播</string>
+    <string name="second_group">娱乐</string>
+    <string name="weish">威生活</string>
+    <string name="sports">体育直播</string>
 </resources>
